@@ -15,9 +15,11 @@
 
 <h3 align="left"><a href="https://github.com/Wyatt-Ritchie/generic-2d-engine">2D Engine</a></h3>
 <p>
-  There is an overall project I am working on, that is a <a href="https://github.com/Wyatt-Ritchie/generic-2d-engine">2D Engine</a>. This engine is written entirely in C++, and it uses the SDL library for managine sprites, tetxtures and my overall rendering flow. This is a rather large project that I expect to act as a personal code base from which I can jump off from to make some games. Currently I have implemented a <a href="https://github.com/Wyatt-Ritchie/Tetris-Clone">Tetris Clone</a> and a <a href="https://github.com/Wyatt-Ritchie/Minesweeper">Minesweeper Clone</a> using this engine. The next thing that I am working on is a tactical RPG. This game will not be unlike games in the Fire Emblem/Advance Wars/XCOM franchises, just in 2D. 
-  <br><br>As someone who considers themselves as more of a programmer than an artist, the art for an RPG takes a long time to make. But in due time I will have something to showcase on this GitHub page. Until then I will continue to update the engine repository as I add components.
+  There is an overall project I am working on, that is a <a href="https://github.com/Wyatt-Ritchie/generic-2d-engine">2D Engine</a>. This engine is written entirely in C++, and it uses the SDL library for managine sprites, tetxtures and my overall rendering flow. This is a rather large project that I expect to act as a personal code base from which I can jump off from to make some games. Currently I have implemented a <a href="https://github.com/Wyatt-Ritchie/Tetris-Clone">Tetris Clone</a> and a <a href="https://github.com/Wyatt-Ritchie/Minesweeper">Minesweeper Clone</a> using this engine.
+  <br><br>
+  The current major component that I am implementing for this project is a collision system. The current method for collision detection simply iterates through each actor and checks if it has a circle component, and if that component intersects with any other circle components. Current improvements are going to extend this system to include rectangles, and other geometry. Post collision behavior is not currently defined, as there is no current physics system. So following the collision system will be a rigidbody physics compnent for more natural looking simulations. 
 </p>
+  
 <!--
 **Zivarius/Zivarius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
