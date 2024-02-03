@@ -1,8 +1,8 @@
 <h1 align="center"> Hi there 👋 I'm Wyatt Ritchie</h1>
 
 
-- 🔭 I’m currently working on a building a personal portfolio website.
-- 🌱 I’m currently learning back-end development. With a focus on using Python and Flask for AI applications
+- 🔭 I’m currently working on migrating the existing 2d game engine into a 3d engine using OpenGl.
+- 🌱 I’m currently learning OpenGl. With a focus on game engine development
 - 👯 I’m looking for work in the software development field. Below you will see some technologies that I am experienced in.
 
 <h2 align="left">Technical Summary</h3>
